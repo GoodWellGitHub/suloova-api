@@ -5,8 +5,18 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>wa.jh</groupId>
-    <artifactId>wa.jh</artifactId>
+    <artifactId>suloova-api</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.10</version>
+        </dependency>
+    </dependencies>
+
     <build>
         <resources>
             <resource>
