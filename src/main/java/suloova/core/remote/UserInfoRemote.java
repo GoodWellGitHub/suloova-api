@@ -8,4 +8,5 @@ import suloova.model.vo.UserVo;
  */
 public interface UserInfoRemote {
     UserAo queryUserInfo(UserVo userVo);
+    Integer saveUser(UserAo userAo);
 }

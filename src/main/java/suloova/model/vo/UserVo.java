@@ -16,4 +16,7 @@ import java.io.Serializable;
 @AllArgsConstructor
 public class UserVo implements Serializable {
     private Integer Id;
+    private String userName;
+    private String sex;
+    private Integer age;
 }
